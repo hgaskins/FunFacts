@@ -15,6 +15,8 @@
 		EE371DDA1CF0C08100D5C9E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE371DD81CF0C08100D5C9E6 /* LaunchScreen.storyboard */; };
 		EE371DE51CF0C08200D5C9E6 /* FunFactsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE371DE41CF0C08200D5C9E6 /* FunFactsTests.m */; };
 		EE371DF01CF0C08200D5C9E6 /* FunFactsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE371DEF1CF0C08200D5C9E6 /* FunFactsUITests.m */; };
+		EE371DFF1CF3512900D5C9E6 /* factBook.m in Sources */ = {isa = PBXBuildFile; fileRef = EE371DFE1CF3512900D5C9E6 /* factBook.m */; };
+		EE371E021CF37E2200D5C9E6 /* ColorWheel.m in Sources */ = {isa = PBXBuildFile; fileRef = EE371E011CF37E2200D5C9E6 /* ColorWheel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		EE371DEB1CF0C08200D5C9E6 /* FunFactsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunFactsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE371DEF1CF0C08200D5C9E6 /* FunFactsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FunFactsUITests.m; sourceTree = "<group>"; };
 		EE371DF11CF0C08200D5C9E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE371DFD1CF3512900D5C9E6 /* factBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = factBook.h; sourceTree = "<group>"; };
+		EE371DFE1CF3512900D5C9E6 /* factBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = factBook.m; sourceTree = "<group>"; };
+		EE371E001CF37E2200D5C9E6 /* ColorWheel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorWheel.h; sourceTree = "<group>"; };
+		EE371E011CF37E2200D5C9E6 /* ColorWheel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorWheel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +108,8 @@
 			isa = PBXGroup;
 			children = (
 				EE371DCD1CF0C08100D5C9E6 /* AppDelegate.h */,
+				EE371E001CF37E2200D5C9E6 /* ColorWheel.h */,
+				EE371E011CF37E2200D5C9E6 /* ColorWheel.m */,
 				EE371DCE1CF0C08100D5C9E6 /* AppDelegate.m */,
 				EE371DD01CF0C08100D5C9E6 /* ViewController.h */,
 				EE371DD11CF0C08100D5C9E6 /* ViewController.m */,
@@ -110,6 +118,8 @@
 				EE371DD81CF0C08100D5C9E6 /* LaunchScreen.storyboard */,
 				EE371DDB1CF0C08100D5C9E6 /* Info.plist */,
 				EE371DCA1CF0C08100D5C9E6 /* Supporting Files */,
+				EE371DFD1CF3512900D5C9E6 /* factBook.h */,
+				EE371DFE1CF3512900D5C9E6 /* factBook.m */,
 			);
 			path = FunFacts;
 			sourceTree = "<group>";
@@ -272,7 +282,9 @@
 			files = (
 				EE371DD21CF0C08100D5C9E6 /* ViewController.m in Sources */,
 				EE371DCF1CF0C08100D5C9E6 /* AppDelegate.m in Sources */,
+				EE371DFF1CF3512900D5C9E6 /* factBook.m in Sources */,
 				EE371DCC1CF0C08100D5C9E6 /* main.m in Sources */,
+				EE371E021CF37E2200D5C9E6 /* ColorWheel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
